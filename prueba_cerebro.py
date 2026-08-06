@@ -18,7 +18,7 @@ def probar_cerebro():
             "4. No uses viñetas, viñetas de lista ni símbolos especiales."
         )
 
-        pregunta_usuario = ("Hola entrenador, que ejercicios hago hoy, hoy me toca gluteo e isquios")
+        pregunta_usuario = ("Hola entrenador, como debería ser mi dieta en una etapa de volumen")
         print(f'\nUsuario: "{pregunta_usuario}"')
 
         historial = [{"role": "user", "content": pregunta_usuario}]
